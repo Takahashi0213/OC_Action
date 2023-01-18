@@ -11,6 +11,7 @@ public class UI_NowTime : MonoBehaviour
 
     private string TimeString;
 
+    // Start is called before the first frame update
     void Start()
     {
         timecount = TimeObject.GetComponent<TimeCount>();
